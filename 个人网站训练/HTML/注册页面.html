@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="../css/登录注册页面.css" />
+	</head>
+	<body>
+		<form>
+		<div id="container">
+			<h1>欢迎来到注册页面</h1>
+			<div class="divtextkuang">
+				<input type="text" maxlength="40" placeholder="邮箱">
+			</div>
+			<div class="divtextkuang">
+				<input type="text" maxlength="40" placeholder="密码,至少8位" min="8">
+			</div>
+			<div class="divtextkuang">
+				<input type="text" maxlength="40" placeholder="再次输入密码">
+			</div>
+			<div class="divtextkuang">
+				<input type="text" maxlength="20" placeholder="验证码">
+			</div>
+			<a href="#" style="text-decoration: none;" onclick="Msgbox()">
+			<div id="divbutton">
+				注册
+			</div></a>
+			<p id="containerp"> <a href="登录页面.html" target="_blank" style="position:relative;left: 100px;">已有账号，点此登录!</a></p>
+			<script language="JavaScript">
+			function Msgbox(){
+				alert("注册成功！即将跳转到登录页面...");
+//				window.location.href="../index.html";
+			}
+			</script>
+		</div>
+		</form>
+	</body>
+</html>

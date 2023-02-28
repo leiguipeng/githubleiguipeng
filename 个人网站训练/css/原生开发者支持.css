@@ -1,0 +1,69 @@
+#divquanju{
+	position: absolute;
+	width: 1300px;
+	height: auto;
+	top: 0px;
+	left: 30px;
+	background-color: #cccccc;
+}
+#ystop{
+	position: fixed;
+	width: 1300px;
+	height: 60px;
+	background-color: #e8e8e8;
+	box-shadow: 3px 3px 5px #9E9E9E;
+	z-index: 100;
+}#ystop a{
+	position: relative;
+	left: 550px;
+	top: -90px;
+	margin-left: 20px;
+	margin-right: 40px;
+	color: #000000;
+	text-decoration: none;
+}#ystop a:hover{
+	color: #009A00;
+}
+.input{
+	position: relative;
+	left: 300px;
+	top: -45px;
+}
+#ysmid{
+	position: absolute;
+	top: 62px;
+	width:1300px;
+	height: 500px;
+	background-color: #0077AA;
+}
+#ysmid iframe{
+	position: relative;
+	left: -8px;
+	top: -8px;
+	width: 1310px;
+	height: 800px;
+	border: 0px solid #ff0000;
+}
+#ysmidleft{
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 600px;
+	background-color: #ffffff;
+}#ysmidleft iframe{
+	width: 100%;
+	height: 100%;
+	border: 0px solid #ff0000;
+	
+}
+#ysmidright{
+	position: relative;
+	float: left;
+	width: 75%;
+	height: 600px;
+	background-color: #ffffff;
+}#ysmidright iframe{
+	width: 100%;
+	height: 100%;
+	border: 0px solid #ff0000;
+}

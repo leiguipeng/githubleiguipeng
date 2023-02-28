@@ -1,0 +1,117 @@
+#wdquanju{
+	position: absolute;
+	margin: 0px auto;
+	top: 0px;
+	width: 1300px;
+	height: auto;
+	background-color: #ffffff;
+}
+#wdtop{
+	position: relative;
+	width: 1200px;
+	height: 60px;
+	margin: 0px auto;
+	background-color: #dddddd;
+}#wdtop img{
+	height: 100%;
+}#wdtop span{
+	position: relative;
+	left: 40px;
+	top: -20px;
+	margin-right: 40px;
+	z-index: 100;
+}#wdtop span a{
+	text-decoration: none;
+	color: #444444;
+}#wdtop span a:hover{
+	color: #009a00;
+}
+.input{
+	position: relative;
+	top: -50px;
+	margin: 0px;
+	left: 400px;
+	background-color: #000000;
+	z-index: 100;
+}
+
+#wdmid{
+	position: relative;
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+	background-color: #ffffff;
+}
+#wdmid_left{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: auto;
+	background-color: #ffffff;
+}#wdmid_left p{
+	line-height: 10px;
+	font-size: 14px;
+	margin-left: 15px;
+}#wdmid_left p a{
+	color: #000000;
+	text-decoration: none;
+}#wdmid_left p a:hover{
+	color: #009A00;
+}
+#wdmid_mid{
+	position: relative;
+	float: left;
+	width: 780px;
+	height: auto;
+	background-color: #ffffff;
+	border-left: 2px solid #a5a5a5;
+	border-right: 2px solid #a5a5a5;
+}#wdmid_midtop{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	top: 10px;
+	background-color: #e2e2e2;
+}#wdmid_midtop p{
+	position: relative;
+	left: 120px;
+	top: -80px;
+}#wdmid_midtop span{
+	position: relative;
+	left: 120px;
+	top: -85px;
+	font-size: 12px;
+}#wdmid_mid1{
+	position: relative;
+	width: 95%;
+	left: 20px;
+}
+.wdmid_mid2{
+	position: relative;
+	width: 95%;
+	left: 20px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #00AFAF;
+}
+#wdmid_right{
+	position: fixed;
+	right: 91px;
+	width: 200px;
+	height: auto;
+	background-color: #e2e2e2;
+	box-shadow: 10px 10px 5px #888888
+}#wdmid_right p{
+	margin-left: 10px;
+}#wdmid_right ul{
+	font-size: 14px;
+	line-height: 20px;
+}#wdmid_right ul li{
+	margin-top: 10px;
+}
+#wdmid_right ul a{
+	color: #000000;
+	text-decoration: none;
+}#wdmid_right ul a:hover{
+	color: #009A00;
+}
